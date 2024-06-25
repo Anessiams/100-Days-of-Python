@@ -1,0 +1,15 @@
+Some new things to remember: 
+
+When getting input, you can format the input before it stores into the variable
+    variable = int(input("How old are you?"))
+
+when performing mathematical equations its important to ensure the vairable is converted to a datatype that operations can be performed
+    int(variable)
+    float(variable)
+
+exponents: (variable ** 2)
+
+When doing a print statment the variable has to be the correct type when using this format:
+    print("My age is" + age + "years old")
+Using this format it doesnt matter:
+    print(f"My age is {age} years old")
